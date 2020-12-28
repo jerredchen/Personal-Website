@@ -5,21 +5,23 @@ function Header() {
         <nav id="nav-links">
   
            <ul id="nav" className="nav">
-              <li><a className="fadeIn" href="#education">Resume</a></li>
-              <li><a className="fadeIn" href="#projects">Projects</a></li>
+                <li><a className="fadeIn" href="#projects">Projects</a></li>
+                <li><a className="fadeIn" href="#skills">Skills</a></li>
+                <li><a className="fadeIn" href="#experience">Experience</a></li>
+                <li><a className="fadeIn" href="#education">Education</a></li>
            </ul>
   
         </nav>
 
-        <hr/>
+        {/* <hr/> */}
   
         <div className="row banner">
            <div className="banner-text">
               <h1 className="responsive-headline">I'm Jerred Chen</h1>
-              <h3>I'm a third-year ME/CS major at Georgia Tech.</h3>
-              <ul className="social">
+              <h3>I'm a third-year Computer Science/Mechanical Engineering student at Georgia Tech.</h3>
+              {/* <ul className="social">
                 <li><a className="header-email" href="">
-                    <img src="" alt="email logo"/>
+                    
                 </a></li>
                 <li><a className="header-linkedin" href="">
                     <img src="" alt="linkedin logo"/>
@@ -27,7 +29,9 @@ function Header() {
                 <li><a className="header-github" href="">
                     <img src="" alt="github logo"/>
                 </a></li>
-              </ul>
+              </ul> */}
+              {/* <i class="fas fa-envelope-square"></i> */}
+
            </div>
         </div>
 
@@ -41,4 +45,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Header; 

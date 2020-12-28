@@ -15,6 +15,7 @@ function Skills() {
                             <li>Java</li>
                             <li>C/C++</li>
                             <li>MATLAB</li>
+                            <li>HTML/CSS</li>
                             <li>Bash</li>
                         </ul>
                     </div>
@@ -28,6 +29,7 @@ function Skills() {
                             <li>Scrapy</li>
                             <li>Selenium</li>
                             <li>Matplotlib</li>
+                            <li>React</li>
                         </ul>
                     </div>
                     <div className="tech">
