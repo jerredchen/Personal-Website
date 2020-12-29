@@ -100,9 +100,11 @@ section#education {
 }
 
 .college-info span {
+    position: absolute;
     font-weight: 500;
     font: 18px 'monospace';
-    padding-left: 15%;
+    /* padding-left: 32%; */
+    left: 75%;
 }
 
 #education .coursework h1 {
@@ -112,11 +114,14 @@ section#education {
     float: left;
 }
 
-#education .coursework ul {
-    padding-top: 1%;
+#education .course-block {
     padding-left: 35%;
     /* float: left; */
     list-style-type: none;
+}
+
+div#course-top {
+    padding-top: 20px;
 }
 
 /* ----------------------------------------*/
@@ -137,4 +142,17 @@ section#experience {
 
 .experience-content {
     padding-left: 35%;
+}
+
+.experience-content span {
+    position: absolute;
+    left: 75%;
+    font-weight: 500;
+    font: 18px 'monospace';
+    /* padding-left: 32%; */
+    /* float: left; */
+}
+
+.experience-content ul {
+    padding-right: 30%;
 }
