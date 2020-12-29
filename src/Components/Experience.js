@@ -3,11 +3,11 @@ function Experience() {
         <section id="experience">
         <div className="row work">
 
-            <div className="three columns header-col">
-                <h1><span>Research/Work Experience</span></h1>
+            <div className="experience-header">
+                <h1><span>Research/Work<br/>Experience</span></h1>
             </div>
 
-            <div className="nine columns main-col">
+            <div className="experience-content">
                 <h3>Laboratory of Intelligent Decisions and Autonomous Robots</h3>
                 <p>Undergraduate Researcher</p>
                 <ul>
@@ -24,7 +24,7 @@ function Experience() {
                     <li>Designed a simulated user program to collect experimental data with 200% increased efficiency</li>
                     <li>Utilized Numpy, Pandas, Scikit-learn and Jupyter Notebook for analysis on data packets in SSH connections</li>
                 </ul>
-                <h3>Manufacturing Systems Design</h3>
+                <h3>Manufacturing Systems Optimization Lab</h3>
                 <p>Undergraduate Researcher</p>
                 <ul>
                     <li>Co-author for Smart Elevator Design from Convolution Neural Networking</li>
