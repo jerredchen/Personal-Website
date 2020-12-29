@@ -5,15 +5,14 @@ function Header() {
         <nav id="nav-links">
   
            <ul id="nav" className="nav">
-                <li><a className="fadeIn" href="#projects">Projects</a></li>
-                <li><a className="fadeIn" href="#skills">Skills</a></li>
-                <li><a className="fadeIn" href="#experience">Experience</a></li>
-                <li><a className="fadeIn" href="#education">Education</a></li>
+                <li><a className="scroll" href="#projects">Projects</a></li>
+                <li><a className="scroll" href="#skills">Skills</a></li>
+                <li><a className="scroll" href="#experience">Experience</a></li>
+                <li><a className="scroll" href="#education">Education</a></li>
            </ul>
   
         </nav>
 
-        {/* <hr/> */}
   
         <div className="row banner">
            <div className="banner-text">

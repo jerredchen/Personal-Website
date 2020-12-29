@@ -2,13 +2,13 @@ function Skills() {
     return (
         <section id="skills">
         <div className="row skills">
-            <div className="three columns header-col">
+            <div className="skills-title">
                 <h1><span>Skills</span></h1>
             </div>
 
-            <div className="nine columns main-col">
-                <div className="row item">
-                    <div className="languages">
+            <div className="outer skills container">
+                <div className="skills-container">
+                    <div id="skill-child" className="languages">
                         <h3>Languages</h3>
                         <ul>
                             <li>Python</li>
@@ -19,11 +19,11 @@ function Skills() {
                             <li>Bash</li>
                         </ul>
                     </div>
-                    <div className="software">
+                    <div id="skill-child" className="software">
                         <h3>Software</h3>
                         <ul>
-                            <li>Drake - Robotics Simulation</li>
-                            <li>Open Motion Planning Library</li>
+                            <li>Drake</li>
+                            <li>OMPL</li>
                             <li>Numpy</li>
                             <li>Pandas</li>
                             <li>Scrapy</li>
@@ -32,7 +32,7 @@ function Skills() {
                             <li>React</li>
                         </ul>
                     </div>
-                    <div className="tech">
+                    <div id="skill-child" className="tech">
                         <h3>Technologies</h3>
                         <ul>
                             <li>Git</li>
