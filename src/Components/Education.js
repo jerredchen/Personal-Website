@@ -2,6 +2,11 @@ function Education() {
     return (
         <section id="education">
         <div className="row education">
+            <div className="button-element">
+                <p>
+                    <a href="/downloads/Jerred_Chen_Resume.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                </p>
+            </div>
             <div className="education-block">
                 <div className="row-item">
                     <div className="education-title">
@@ -13,7 +18,7 @@ function Education() {
                         </h3>
                         <p>Bachelor's in Mechanical Engineering</p>
                         <p>Bachelor's in Computer Science<br/>- Concentrations in Artificial Intelligence, Modeling & Simulation</p>
-                        <p>GPA: 3.87</p>
+                        <p>GPA: 3.88</p>
                     </div>
                 </div>
             </div>

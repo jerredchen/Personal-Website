@@ -9,8 +9,8 @@ function Skills() {
             <div className="outer skills container">
                 <div className="skills-container">
                     <div id="skill-child" className="languages">
-                        <h3>Languages</h3>
-                        <ul>
+                        <h3 className="skill-block">Languages</h3>
+                        <ul className="skill-block">
                             <li>Python</li>
                             <li>Java</li>
                             <li>C/C++</li>
@@ -20,8 +20,8 @@ function Skills() {
                         </ul>
                     </div>
                     <div id="skill-child" className="software">
-                        <h3>Software</h3>
-                        <ul>
+                        <h3 className="skill-block">Software</h3>
+                        <ul className="skill-block">
                             <li>Drake</li>
                             <li>OMPL</li>
                             <li>Numpy</li>
@@ -33,8 +33,8 @@ function Skills() {
                         </ul>
                     </div>
                     <div id="skill-child" className="tech">
-                        <h3>Technologies</h3>
-                        <ul>
+                        <h3 className="skill-block">Technologies</h3>
+                        <ul className="skill-block">
                             <li>Git</li>
                             <li>Linux</li>
                             <li>Jupyter Notebook</li>
