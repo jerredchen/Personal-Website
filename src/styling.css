@@ -57,18 +57,14 @@ ul#nav li a:hover {
     background-color: #111111;
 }
 
-/* ul.social {
-    list-style-type: none;
-    display: block;
-    text-align: center;
-    padding-left: 200px;
+header .icons a {
+    padding: 20px;
 }
 
-ul.social li a {
-    float: left;
-    display: block;
-    text-align: center;
-} */
+header .icons a{
+    text-decoration: none;
+    color: black;
+}
 
 .floating {
     animation: floating 3s ease-in-out infinite;
@@ -92,7 +88,7 @@ a.float-icon:visited {
 
 section#education {
     overflow: hidden;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 #education .button {
@@ -101,12 +97,14 @@ section#education {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font: 20px 'monospace';
+    font: 2.25vh 'monospace';
 }
 
 #education .button-element {
-    width: 215px;
-    margin: 75px auto;
+    /* width: 250px;
+    margin: 75px auto; */
+    display: flex;
+    justify-content: center;
 }
 
 #education .button:hover {

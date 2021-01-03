@@ -1,10 +1,13 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+
 function Education() {
     return (
         <section id="education">
         <div className="row education">
             <div className="button-element">
                 <p>
-                    <a href="/downloads/Jerred_Chen_Resume.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                    <a href="downloads/Jerred_Chen_Resume.pdf" className="button"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</a>
                 </p>
             </div>
             <div className="education-block">
