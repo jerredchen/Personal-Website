@@ -61,7 +61,7 @@ header .icons a {
     padding: 20px;
 }
 
-header .icons a{
+header .icons a {
     text-decoration: none;
     color: black;
 }
@@ -101,54 +101,89 @@ section#education {
 }
 
 #education .button-element {
-    /* width: 250px;
-    margin: 75px auto; */
     display: flex;
     justify-content: center;
+    margin-bottom: 3%;
 }
 
 #education .button:hover {
     background: #080808;
 }
 
-.education-title h1 span {
+/* For mobile */
+
+#education, #experience {
+    text-align: center;
+}
+
+#education .row-item h1, #experience h1 {
     font-weight: 500;
     text-transform: uppercase;
+}
+
+#education .college-info, #education .course-block, .experience-content {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+/* For Desktop */
+/* #education .row-item {
+    display: grid;
+    grid-template-columns: 15% 20% auto 20%;
+} */
+
+ /* For Desktop */
+/* .education-title { */
+    /* grid-column: 2 / 3; */
+    /* font-weight: 500;
+    text-transform: uppercase; */
     /* letter-spacing: 1px; */
-    padding-left: 15%;
+    /* padding-left: 15%; */
     /* width: 50%; */
-    float: left;
+    /* float: left; */
     /* padding-top: 50%; */
+/* } */
+
+.date-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.college-info {
-    padding-left: 35%;
-    margin-bottom: 50px;
+.college-name {
+    grid-column: 3 / 4;
+    margin: none;
 }
 
-.college-info span {
-    position: absolute;
+/* For Desktop */
+/* .college-info {
+    grid-column: 3 / 4;
     font-weight: 500;
     font: 2vh 'monospace';
-    /* padding-left: 32%; */
-    left: 75%;
-}
+} */
 
-#education .coursework h1 {
+/* For Desktop */
+/* #education .row-item h1 {
+    grid-column: 2 / 3;
     font-weight: 500;
     text-transform: uppercase;
-    padding-left: 15%;
-    float: left;
+} */
+
+#education .course-top {
+    text-decoration: underline;
 }
 
 #education .course-block {
-    padding-left: 35%;
+    /* padding-left: 35%; */
+    grid-column: 3 / 4;
     list-style-type: none;
 }
-
+/* 
 div#course-top {
     padding-top: 20px;
-}
+} */
 
 /* ----------------------------------------*/
 /*                Experience
@@ -159,7 +194,7 @@ section#experience {
     padding-top: 50px;
 }
 
-#experience h1 span {
+/* #experience h1 span {
     font-weight: 500;
     text-transform: uppercase;
     padding-left: 15%;
@@ -179,7 +214,7 @@ section#experience {
 
 .experience-content ul {
     padding-right: 30%;
-}
+} */
 
 /* ----------------------------------------*/
 /*                  Skills
@@ -200,11 +235,12 @@ section#experience {
 
 .skills-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #skill-child {
     flex: 1;
-    font: 18px 'monospace';
+    /* font: 18px 'monospace'; */
     align-items: center;
 }
 
@@ -232,9 +268,4 @@ section#experience {
 .projects-title h1 span {
     text-transform: uppercase;
     font-weight: 500;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    padding-left: 45%;
-    padding-bottom: 1000px;
 }
