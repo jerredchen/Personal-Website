@@ -4,6 +4,7 @@ html {
 
 body {
     font: 2vh 'monospace';
+    font-family: monospace;
 }
 
 /* ----------------------------------------*/
@@ -23,16 +24,19 @@ header .intro-container {
 
 header .intro-item h1 {
     font: 12vh 'monospace';
+    font-family: monospace;
     letter-spacing: -3px;
 }
 
 header .intro-item h3 {
     font: 3vh 'monospace';
+    font-family: monospace;
     letter-spacing: -1px;
 }
 
 ul#nav {
     font: 2vh 'monospace';
+    font-family: monospace;
     position: fixed;
     z-index: 2;
     top: 0;
@@ -98,6 +102,7 @@ section#education {
     text-decoration: none;
     border-radius: 5px;
     font: 2.25vh 'monospace';
+    font-family: monospace;
 }
 
 #education .button-element {
