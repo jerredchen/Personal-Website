@@ -6,6 +6,7 @@ import Education from './Components/Education';
 import Experience from './Components/Experience';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 import './styling.css'
 
 class App extends React.Component {
@@ -17,6 +18,7 @@ class App extends React.Component {
         <Experience/>
         <Skills/>
         <Projects/>
+        <Footer/>
       </div>
     )
   }

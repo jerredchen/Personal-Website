@@ -35,7 +35,6 @@ function Experience() {
                 <div className="exp-block">
                     <p>Undergraduate Researcher</p>
                     <ul>
-                        <li>Co-author for Smart Elevator Design from Convolution Neural Networking</li>
                         <li>Developed own simulations of industrial manufacturing systems through case studies</li>
                     </ul>
                 </div>
