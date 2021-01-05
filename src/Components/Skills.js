@@ -10,36 +10,36 @@ function Skills() {
                 <div className="skills-container">
                     <div id="skill-child" className="languages">
                         <h3 className="skill-block">Languages</h3>
-                        <ul className="skill-block">
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>C/C++</li>
-                            <li>MATLAB</li>
-                            <li>HTML/CSS</li>
-                            <li>Bash</li>
-                        </ul>
+                        <div className="skill-block">
+                            <p>Python</p>
+                            <p>Java</p>
+                            <p>C/C++</p>
+                            <p>MATLAB</p>
+                            <p>HTML/CSS</p>
+                            <p>Bash</p>
+                        </div>
                     </div>
                     <div id="skill-child" className="software">
                         <h3 className="skill-block">Software</h3>
-                        <ul className="skill-block">
-                            <li>Drake</li>
-                            <li>OMPL</li>
-                            <li>Numpy</li>
-                            <li>Pandas</li>
-                            <li>Scrapy</li>
-                            <li>Selenium</li>
-                            <li>Matplotlib</li>
-                            <li>React</li>
-                        </ul>
+                        <div className="skill-block">
+                            <p>Drake - Robotics Simulation</p>
+                            <p>Open Motion Planning Library</p>
+                            <p>Numpy</p>
+                            <p>Pandas</p>
+                            <p>Scrapy</p>
+                            <p>Selenium</p>
+                            <p>Matplotlib</p>
+                            <p>React</p>
+                        </div>
                     </div>
                     <div id="skill-child" className="tech">
                         <h3 className="skill-block">Technologies</h3>
-                        <ul className="skill-block">
-                            <li>Git</li>
-                            <li>Linux</li>
-                            <li>Jupyter Notebook</li>
-                            <li>Wireshark</li>
-                        </ul>
+                        <div className="skill-block">
+                            <p>Git</p>
+                            <p>Linux</p>
+                            <p>Jupyter Notebook</p>
+                            <p>Wireshark</p>
+                        </div>
                     </div>
                 </div>
             </div>
