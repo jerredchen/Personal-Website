@@ -11,8 +11,8 @@ function Projects() {
             </div>
 
            <div className="portfolio-container">
-                <a>
-                    <h3 href="https://github.com/jerredchen/EyeWatch" target="_blank"><FontAwesomeIcon icon={ faLink} /> EyeWatch: Pauses Movies/Videos When You Look Away</h3></a>
+                <a href="https://github.com/jerredchen/EyeWatch" target="_blank">
+                    <h3><FontAwesomeIcon icon={ faLink} /> EyeWatch: Pauses Movies/Videos When You Look Away</h3></a>
                 <span>(In-Progress)</span>
                 <div className="project-block">
                     <ul>

@@ -9,7 +9,7 @@ function Education() {
         <div className="row education">
             <div className="button-element">
                 <p>
-                    <a href={Jerred_Chen_Resume} className="button"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</a>
+                    <a href={Jerred_Chen_Resume} className="button" target="_blank"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</a>
                 </p>
             </div>
             <div className="education-block">
