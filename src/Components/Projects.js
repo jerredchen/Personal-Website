@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 function Projects() {
     return (
@@ -12,18 +12,18 @@ function Projects() {
 
            <div className="portfolio-container">
                 <a>
-                    <h3><FontAwesomeIcon icon={ faCaretRight} /> Movie That Pauses When You Look Away</h3></a>
+                    <h3 href="https://github.com/jerredchen/EyeWatch" target="_blank"><FontAwesomeIcon icon={ faLink} /> EyeWatch: Pauses Movies/Videos When You Look Away</h3></a>
                 <span>(In-Progress)</span>
                 <div className="project-block">
                     <ul>
                         <li>Pauses video or movie when webcam detects user looking away from screen</li>
-                        <li>Utilize FaceNet deep neural network model with Keras software to perform facial recognition</li>
+                        <li>Utilize OpenCV deep neural network model to perform facial detection</li>
                         <li>Designed data set of different facial angles to be used in training and validation</li>
-                        <li>Integrate neural network model into real-time computer vision detection using Tensorflow</li>
+                        <li>Integrate neural network model into real-time computer vision detection</li>
                     </ul>
                 </div>
                 <a href="https://github.com/jerredchen/RRT-KUKA-Simulation" target="_blank">
-                    <h3><FontAwesomeIcon icon={ faCaretRight} /> RRT Path-Planning for KUKA Arm</h3></a>
+                    <h3><FontAwesomeIcon icon={ faLink} /> RRT Path-Planning for KUKA Arm</h3></a>
                 <span>Aug. 2020 - Dec. 2020</span>
                 <div className="project-block">
                     <ul>
@@ -33,8 +33,8 @@ function Projects() {
                         <li>Integrated the Open Motion Planning Library's RRT algorithm into the Drake software</li>
                     </ul>
                 </div>
-                <a href="https://github.com/jerredchen/UH-CS-REU-2020" target="_blank">
-                    <h3><FontAwesomeIcon icon={ faCaretRight} /> Simulated User Activity Program</h3></a>
+                <a href="https://github.com/jerredchen/UH-CS-REU-2020#simulated-user-program" target="_blank">
+                    <h3><FontAwesomeIcon icon={ faLink} /> Simulated User Activity Program</h3></a>
                 <span>June 2020 - Aug. 2020</span>
                 <div className="project-block">
                     <ul>
