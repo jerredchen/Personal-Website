@@ -1,3 +1,3 @@
 # Personal Website
 
-The personal website of Jerred Chen: [a link](jerredchen.github.io)
+The personal website of Jerred Chen: [jerredchen.github.io]
