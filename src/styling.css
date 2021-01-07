@@ -73,10 +73,10 @@ header .icons a {
 .floating {
     animation: floating 3s ease-in-out infinite;
     text-decoration: none;
-    /* padding-top: 12%; */
+    color: black;
 }
 
-a.float-icon:visited {
+a.float-icon:visited, a.float-icon {
     color: black;
 }
 
